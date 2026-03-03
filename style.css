@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(bg.jpg);
+    /* background-color: brown; */
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    align-items: center;
+    margin: auto;
+    /* border-bottom: 1px solid black; */
+    padding: 20px 20px;
+    height: 100px;
+    /* border-bottom: 1px solid #cecece; */
+
+}
+
+.nav-container {
+    gap: 20px;
+}
+
+.nav-items {
+    text-decoration: none;
+    font-weight: 600;
+    color: #cecece;
+    margin: 0 0 0 30px;
+    
+}
+
+.nav-items:hover {
+    color: #ffffff;
+}
+
+#item-4 {
+    margin: 0 60px 0 30px;
+    /* background-color: #ffffff; */
+    /* padding: 10px; */
+}
+
+.text-icon {
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 0 0 30px;
+}
+
+.image-1 {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content-1-wrapper {
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-profile {
+    margin: 0 100px 0 0;
+}
+
+.content-article-1 {
+    margin: 0 0 0 40px;
+    color: #cecece;
+    padding: 0 0 10px 0;
+    overflow-y: hidden;
+}
+
+.ph-instagram-logo {
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: #ffffff;
+}
+
+.ph-instagram-logo:hover {
+    background-color:#cecece;
+}
+.ph-github-logo {
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: #ffffff;
+}
+
+.ph-github-logo:hover {
+    background-color:#cecece;
+}
+.ph-linkedin-logo {
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: #ffffff;
+    margin: 0 20px 0 20px;
+
+}
+
+.ph-linkedin-logo:hover {
+    background-color:#cecece;
+}
+.ph-envelope {
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: #ffffff;
+    margin: 0 0 0 20px;
+
+}
+
+.ph-envelope:hover {
+    background-color:#cecece;
+}
+/* page aboutme */
+
+.content-2 {
+    /* padding: 50px 0 50px 0; */
+    min-height: 70vh;
+}
+.left-article {
+    width: 50%;
+    padding: 0 0 100px 30px;
+    
+}
+.right-article {
+    width: 40%;
+    height: 60vh;
+    background: rgba(255, 2555, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.content-2-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    padding: 0 40px 0 40px;
+}
+
+/* page skills */
+.content-3 {
+    min-height: 70vh;
+}
+.left-article-skill {
+    width: 50%;
+    padding: 0 0 130px 30px;
+    
+}
+.content-3-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 30px;
+    /* padding: 0 40px 0 40px; */
+}
+
+.right-article-skill {
+    width: 40%;
+    height: 70vh;
+    /* background-color: red; */
+    /* background: rgba(255, 2555, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px; */
+    /* padding: 40px; */
+    /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); */
+}
+
+.container-language {
+    display: flex;
+    gap: 10px;
+}
+
+.frame-language-1{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-html5 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-2{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-css3-alt {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-3{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-js {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-4{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-react {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.container-language-2 {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 0 0;
+}
+
+.frame-language-5{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-git-alt {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-5{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-git-alt {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-6{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-figma {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-7{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-bootstrap {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-8{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-laravel {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.container-language-4 {
+    display: flex;
+    gap: 10px;
+}
+
+.frame-language-9{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-php {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-10{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-node-js {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-11{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-angular {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.frame-language-12{
+    width: 110px;
+    height: 110px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.fa-swift {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+/* page portofolio */
+
+.content-4-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-article-port {
+    width: 50%;
+    padding: 0 0 220px 0;
+}
+
+.right-article-port {
+    width: 40%;
+}
+
+.project-1 {
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.pic1 {
+    object-fit: cover;
+    width: 250px;
+    height: 100px;
+}
+
+.project-2 {
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.pic2 {
+    object-fit: cover;
+    width: 250px;
+    height: 100px;
+}
+
+.project-3 {
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.pic3 {
+    object-fit: cover;
+    width: 250px;
+    height: 100px;
+}
+
+.project-4 {
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 2555, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.pic4 {
+    object-fit: cover;
+    width: 250px;
+    height: 100px;
+}
+
+.container-live-code a{
+    margin: 20px 20px 0 20px; 
+    font-weight: bolder; 
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.container-live-code a h4 {
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 7px; 
+    border-radius: 15px;
+}
+
+.container-project, .container-project-2{
+    display: flex;
+    gap: 20px;
+}
+
+.container-project-2 {
+    margin-top: 20px;
+}
+
+/* PAGE CONTACTME  */
+.content-5 {
+    padding: 20px 0 0 0;
+}
+
+.content-5-wrapper {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 70px;
+}
+
+.left-article-cont {
+    width: 50%;
+    padding: 0 0 200px 0;
+}
+
+.right-article-cont {
+    width: 45%;
+}
+
+.input-contact {
+  margin-bottom: 25px;
+}
+
+.input-contact input,
+.input-contact textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+
+.input-contact textarea {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  height: 150px;
+  resize: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-submit {
+  width: 100%;
+  padding: 18px;
+  border-radius: 50px;
+  border: none;
+  background: #e0e0e0;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #cecece;
+  transform: scale(1.02);
+}
+
+form {
+    padding: 10px;
+}
